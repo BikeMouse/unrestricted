@@ -1,0 +1,53 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/*Header*/
+
+.Header {
+    background-color: #115e59;
+    color: #f0fdfa;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    border: 5px solid black;
+}
+/*About section*/
+
+.About{
+    background-color: #f0fdfa;
+    color: #115e59;
+    height: 400px;
+    display: flex;
+    border: 5px solid magenta;
+}
+
+.pic {
+    border: 5px solid red;
+    display: flex;
+    justify-content: center;
+}
+
+.Img{
+    object-fit: contain;
+}
+
+/*Card section*/
+
+.card{
+    background-color: #f0fdfa;
+    color: #115e59;
+    height: 500px;
+    display: flex;
+    border: 5px solid blue;
+}
+
+.flex{
+    border: 5px solid limegreen;
+    width: 50%;
+    display: flex;
+}
+
+.CardImg{
+    object-fit: contain;
+}
