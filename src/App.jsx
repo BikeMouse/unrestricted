@@ -6,7 +6,7 @@ import data from './data'
 import Footer from './components/Footer'
 
 export default function App() {
-  const cardElements = data.map((e)=>{
+  const cardElements = data.map((e) => {
     return <Card
       key={e.id}
       {...e}
@@ -16,7 +16,9 @@ export default function App() {
     <div>
       <Header />
       <About />
-      {cardElements}
+      <div className='flex'>
+        {cardElements}
+      </div>
       <Footer />
     </div>
   )
