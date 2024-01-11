@@ -15,12 +15,17 @@ export default function About() {
             </div>
             <div className='container-xl font-sans'>
                 <h3 className='font-bold text-2xl pb-10 text-transform: capitalize'>key principles</h3>
-                <p className='italic font-bold text-xl text-transform: capitalize'>safety first</p>
-                <p className='font-normal text-lg pb-5'>Whichever our services you are using - please be safe!</p>
-                <p className='italic font-bold text-xl text-transform: capitalize'>satisfaction</p>
-                <p className='font-normal text-lg pb-5'>The products that we -Unrestricted- use are products that had been to satisfactory quality for ourselves.</p>
-                <p className='italic font-bold text-xl text-transform: capitalize'>your location matters</p>
-                <p className='font-normal text-lg pb-14'>We are mobile mechanics and travel to your destination. Please just keep in mind we are CYCLING mechanics and travel to you by bike.</p>
+                <ul className='pl-5'>
+                    <li className='list-disc italic font-bold text-xl text-transform: capitalize'>safety first
+                        <p className='font-normal text-lg pb-5'>Whichever our services you are using - please be safe!</p>
+                    </li>
+                    <li className='list-disc italic font-bold text-xl text-transform: capitalize'>satisfaction
+                        <p className='font-normal text-lg pb-5'>The products that we -Unrestricted- use are products that had been to satisfactory quality for ourselves.</p>
+                    </li>
+                    <li className='list-disc italic font-bold text-xl text-transform: capitalize'>your location matters
+                        <p className='font-normal text-lg pb-14'>We are mobile mechanics and travel to your destination. Please just keep in mind we are CYCLING mechanics and travel to you by bike.</p>
+                    </li>
+                </ul>
             </div>
             <p className='font-sans font-bold italic text-xl leading-8'>Find below our services and ways of contacting. Please note the pricing is for illustration purposes only, but when we do provide an invoice to you, it will be broken down in the same manner</p>
         </div>
